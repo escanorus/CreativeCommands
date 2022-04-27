@@ -1,0 +1,24 @@
+name: CreativeCommands
+version: '${project.version}'
+main: ru.aracle.creativecommands.CreativeCommands
+api-version: 1.18
+prefix: Creative
+authors: [ aracle ]
+depend: [ Inception ]
+description: Creative commands for adventures server
+website: adventures-serrver.ru
+commands:
+  back:
+    description: Return to previuos location
+  tp:
+    description: Teleportation to players
+    aliases: [ teleport, tpa ]
+  speed:
+    description: Speed toggle for playes
+    aliases: [ sp ]
+  waypoint:
+    description: Waypoints for player
+    aliases: [ wp, way, point ]
+  creativecommands:
+    description: Plugin command
+    aliases: [ ccommands, commands ]
